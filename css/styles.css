@@ -1,0 +1,20 @@
+:root{
+    --blue : #00356B;
+}
+
+
+body{
+    background-color: var(--blue);
+}
+
+.about{
+    height: 100%;
+    width: 100%;
+}
+
+.change-color{
+    background-color: #072d4c!important;
+}
+.change-color-nav{
+    background-color: var(--blue);
+}
