@@ -1,20 +1,33 @@
 :root{
-    --blue : #00356B;
+  --fade : rgba(0,0,0,0.6);
+}
+
+*{
+  padding: 0;
+  margin: 0;
 }
 
 
-body{
-    background-color: var(--blue);
+/* KARAN's CODE */
+
+.nav_bar{
+  background-color: var(--fade);
 }
 
-.about{
-    height: 100%;
-    width: 100%;
+.hero{
+  background-color: red;
+}
+#container{
+  overflow: hidden;
+	background-attachment: fixed;
+}
+.hero img{
+  width: 60%;
+  height: 30%;
 }
 
-.change-color{
-    background-color: #072d4c!important;
-}
-.change-color-nav{
-    background-color: var(--blue);
-}
+
+
+
+
+/* SHUBHRA's CODE */
