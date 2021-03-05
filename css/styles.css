@@ -5,29 +5,233 @@
 *{
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 
-/* KARAN's CODE */
+
 
 .nav_bar{
   background-color: var(--fade);
+  /* color: white; */
 }
-
+.navbar-nav{
+  color: white;
+}
 .hero{
-  background-color: red;
+  /* ROVpic02 1 */
+display: flex;
+/* position: absolute; */
+width: 98.8vw;
+height: 100vh;
+/* left: 1440px; */
+/* top: 0px; */
+/* display: flex; */
+background-image: url(../assets/ROVpic02\ 1.png);
+/* transform: matrix(-1, 0, 0, 1, 0, 0); */
+background-size: 100vw;
+
+
+
 }
-#container{
-  overflow: hidden;
-	background-attachment: fixed;
+
+.hero-h2{
+
+position: absolute;
+width: 50vw;
+height: 20vh;
+align-self: flex-start;
+margin-top: 25vh;
+display: flex;
+font-family: Raleway;
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 47px;
+margin-left: 10vw ;
+color: #FFFFFF;
+
+text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
 }
-.hero img{
-  width: 60%;
-  height: 30%;
+
+.hero-p{
+  position: absolute;
+width: 715px;
+height: 91px;
+align-self: center;
+margin-top: 25vh;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 29px;
+margin-left: 10vw ;
+
+color: #FFFFFF;
+
+text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
 }
 
+.hero-vector{
+  position: absolute;
+width: 66px;
+height: 33px;
+left: 687px;
+top: 88vh;
 
 
+}
+.hero-vector:hover{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.71);
+  background-color: var(--fade);
+  border-radius: 20%;
+}
 
+.achievements{
+  height: 65vh;
+}
 
-/* SHUBHRA's CODE */
+.achievements-h2{
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 4rem;
+
+}
+
+.achievements-card{
+  height: 40vh;
+  width: 15vw;
+  background-color: #0E495D;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-family: Raleway;
+font-size: 25px;
+font-style: normal;
+font-weight: 300;
+line-height: 40px;
+letter-spacing: 0em;
+border-radius: 15px;
+
+;
+}
+
+.achievements-container{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.sponsors{
+  min-height: 100vh;
+  background-color: #0E495D;
+
+}
+.sponsors-h2{
+  font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+padding-top: 3rem;
+}
+.sponsors-container{
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.sponsors-card{
+  background-color: white;
+  height: 40vh;
+  width: 20vw;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 4rem;
+
+}
+
+.sponsors-text{
+  padding-top: 4rem;
+  font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.sponsors-image{
+  padding-top: 1rem;
+}
+
+.contact-body{
+  margin-top: 6rem ;
+}
+
+.contact-h2{
+  font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: left;
+/* padding-left: 4rem; */
+}
+
+.phone{
+  /* margin-left: 4rem; */
+  margin-top: 2rem;
+  display: inline;
+  text-decoration: none;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.map{
+float: right;
+display: inline;
+
+}
+.details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.socialmedia{
+  margin-top: 5rem;
+  display: flex;
+
+}
+.form{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  /* flex-direction: column; */
+}
+.form-h2{
+  font-family: Raleway;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
