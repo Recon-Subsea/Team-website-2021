@@ -176,3 +176,62 @@ text-align: center;
 .sponsors-image{
   padding-top: 1rem;
 }
+
+.contact-body{
+  margin-top: 6rem ;
+}
+
+.contact-h2{
+  font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: left;
+/* padding-left: 4rem; */
+}
+
+.phone{
+  /* margin-left: 4rem; */
+  margin-top: 2rem;
+  display: inline;
+  text-decoration: none;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.map{
+float: right;
+display: inline;
+
+}
+.details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.socialmedia{
+  margin-top: 5rem;
+  display: flex;
+
+}
+.form{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  /* flex-direction: column; */
+}
+.form-h2{
+  font-family: Raleway;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
