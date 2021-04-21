@@ -570,3 +570,50 @@ width: 90vw;
       float: left;
     }
 }
+
+
+.events{
+  margin-top: 20vh;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.events-h2{
+  font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 47px;
+}
+
+.events-headline{
+  margin-top: 2rem;
+  max-width: 40vw;
+  font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+letter-spacing: 0.07em;
+display: flex;
+}
+
+.events-hero{
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture-gallery{
+  background: #000000;
+  border-radius: 10px;
+  color: white;
+  font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.07em;
+width : 15rem;
+height: 3rem;
+}
