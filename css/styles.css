@@ -653,3 +653,14 @@ color: #000000;
   display: block;
 }
 }
+
+.back-arrow{
+  margin-top: 18vh;
+  margin-left: 3rem;
+}
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
