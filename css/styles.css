@@ -379,7 +379,9 @@ margin-top: 8rem;
 flex-wrap: wrap;
 display: flex;
 align-items: center;
-justify-content: space-around;
+justify-content: space-evenly;
+gap: 8vw;
+margin: 0 3rem 0 3rem;
 
 }
 .card-container{
@@ -393,6 +395,7 @@ text-align: center;
 margin-left: auto;
 margin-right: auto;
 border-radius: 10px ;
+
 
 }
 
@@ -413,6 +416,7 @@ text-align: center;
 }
 .team-images{
   height: 10rem;
+  width: 10rem;
 }
 
 .footer {
