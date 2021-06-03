@@ -631,7 +631,7 @@ input[type='checkbox']:checked + label {
   margin-bottom: 2rem;
 }
 .events-container-text {
-  height: 30vh;
+  height: auto;
 }
 .events-container-h3 {
   font-family: Raleway;
